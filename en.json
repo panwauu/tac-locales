@@ -121,8 +121,8 @@
       "Settings": {
         "audioVolume": "Volume:",
         "colorBlindness": "Optimizing balls for color blind people:",
-        "colorBlindnessOn": "An",
-        "colorBlindnessOff": "Out",
+        "colorBlindnessOn": "On",
+        "colorBlindnessOff": "Off",
         "position": "Position:",
         "checkBoxAbsolute": "Absolutely positioned",
         "checkBox4_0": "Always at the bottom right",
