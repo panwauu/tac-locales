@@ -1,0 +1,363 @@
+{
+  "Home": {
+    "Spielersuche": "Casamentero",
+    "Games": "Juegos",
+    "Waiting": "Warteraum",
+    "Tournament": "competencia",
+    "Leaderboard": "Tabla de clasificación",
+    "Settings": "Ajustes",
+    "Copyright": "Derechos de autor",
+    "Datenschutz": "Protección de Datos",
+    "Impressum": "imprimir",
+    "signout": "desconectar"
+  },
+  "Leaders": {
+    "wins": "Cerco",
+    "rank": "Sonó",
+    "name": "Nombre",
+    "teams": "Equipos",
+    "cards": "tarjetas",
+    "date": "fecha"
+  },
+  "CountdownTimer": {
+    "days": "Dias",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos"
+  },
+  "Tournament": {
+    "deadlinesHeader": "Fechas y plazos",
+    "signUpDeadline": "Fecha limite de registro",
+    "gameTime": "juego",
+    "timePerGame": "Tiempo por juego",
+    "waitingTeams": "Equipos incompletos",
+    "fixTeams": "Equipos registrados permanentemente",
+    "fixTeamsnOpenSpots": "Equipos faltantes",
+    "signUpConfirmationText": "¿Estás seguro de que tienes tiempo para las fechas de los juegos? ¡Esto es muy importante para la experiencia de todos!",
+    "teamSignUp": {
+      "openModalButton": "Registrar equipo",
+      "title": "Registrar equipo",
+      "teamNamePlaceholder": "Nombre del equipo",
+      "selectButtonWithPartner": "Registrarse con un socio permanente",
+      "selectButtonAlone": "Socios intermediarios",
+      "submitButton": "Registrar equipo"
+    },
+    "helpModal": {
+      "title": "Ayuda",
+      "signUpHeader": "Registro",
+      "signUpContent": "Al registrarse, se aplica el orden de llegada. Entonces, el equipo que está completo entra primero. Cada miembro agregado debe estar de acuerdo explícitamente en participar. Una vez finalizado el torneo, ya no es posible cancelarlo.",
+      "gameTimeHeader": "Fechas del juego",
+      "gameTimeContent": "Hay franjas horarias fijas para los juegos en los que deben tener lugar. Asegúrate de tener tiempo para las fechas de los juegos. Además, los juegos deben completarse en el tiempo especificado.",
+      "tournamentProcessHeader": "Calendario del torneo",
+      "tournamentProcessContent": "En las fechas de los juegos, los juegos aparecerán en su mesa de juego. Luego tienen que jugarse. Puede usar el chat para intercambiar ideas con el equipo contrario y también cambiar a un chat de video / audio de su elección.",
+      "winnerHeader": "ganador",
+      "winnerContent": "Hay un sistema K-O. El equipo que gana se adelanta. Ganó el último equipo. Básicamente, un equipo ha ganado si el juego se gana en el tiempo requerido. Si se excede el tiempo, ¡gana el equipo que jugó más rápido! Por lo general, no se pretende que esto ocurra."
+    },
+    "StatusBadge": {
+      "signUpWaiting": "Fase de registro planificada",
+      "signUpWaitingSeverity": "info",
+      "signUp": "La fase de registro está en marcha",
+      "signUpSeverity": "advertencia",
+      "signUpEnded": "Fase de registro completada",
+      "signUpEndedSeverity": "info",
+      "running": "El torneo se está ejecutando",
+      "runningSeverity": "advertencia",
+      "ended": "Torneo terminado",
+      "endedSeverity": "éxito",
+      "signUpFailed": "¡No hay suficientes participantes!",
+      "signUpFailedSeverity": "peligro"
+    },
+    "CountdownTimer": {
+      "signUpWaiting": "La fase de registro comienza en:",
+      "signUp": "La fase de registro finaliza en:",
+      "signUpEnded": "El torneo comienza en:"
+    },
+    "Brackets": {
+      "bracketList0": "El final",
+      "bracketList1": "Semifinales",
+      "bracketList2": "Cuartos de final",
+      "bracketList3": "Octavos de final",
+      "bracketList4": "Octavos de final",
+      "bracketTBDTeam": "Aún no conocido"
+    },
+    "Toast": {
+      "left-tournament-summary": "Deja el torneo",
+      "left-tournament-detail": "Has cancelado tu participación en el torneo {tournamentTitle}.",
+      "team-is-fix-summary": "Equipo del torneo completo",
+      "team-is-fix-detail": "Su equipo {teamTitle} ahora está completo y programado para el torneo {tournamentTitle}.",
+      "team-is-waiting-summary": "Equipo del torneo incompleto",
+      "team-is-waiting-detail": "Su equipo {teamTitle} ahora está registrado pero aún no está completo. ¡Te falta un compañero de equipo o tu compañero de equipo tiene que confirmar el registro!",
+      "partner-left-summary": "Partner ha dejado el equipo del torneo",
+      "partner-left-detail": "Su socio {partner} dejó su equipo {teamName} para el torneo {tournamentName}. Ahora te falta un compañero.",
+      "signUp-failed-summary": "El torneo no se lleva a cabo",
+      "signUp-failed-detail": "El torneo {tournamentName} no se llevará a cabo. Desafortunadamente, no se encontraron suficientes participantes.",
+      "signUpEnded-part-summary": "Felicitaciones por participar en el torneo.",
+      "signUpEnded-part-detail": "El torneo {tournamentName} se llevará a cabo contigo. ¡Recuerda ingresar las fechas en el calendario!",
+      "signUpEnded-noPart-summary": "El torneo se lleva a cabo sin ti",
+      "signUpEnded-noPart-detail": "Lamentablemente, no pudo obtener un lugar en el torneo {tournamentName}. Vuelve a intentarlo la próxima vez."
+    }
+  },
+  "GameView": {
+    "socketDisconnectedOverlay": "La conexión con el servidor se interrumpe. ¡Estamos intentando volver a conectarnos!",
+    "reconnectionFailedSummary": "Problema de conexión",
+    "reconnectionFailedDetail": "Oh no. Hubo un problema al conectarse al servidor. Inicie sesión de nuevo. ¡Buena suerte!"
+  },
+  "Chat": {
+    "allChannel": "General",
+    "waitingChannel": "Sala de espera / juego",
+    "submitButton": "Enviar",
+    "textPlaceholder": "Escribe un mensaje",
+    "allNoMessagesPlaceholder": "Los mensajes se pueden intercambiar con todos los usuarios aquí. ¡Estos no se guardan!",
+    "waitingNoMessagesPlaceholder": "Aquí se pueden intercambiar mensajes con los usuarios en su antigua sala de espera / juego. ¡Estos no se guardan y solo llegan a los usuarios en su sala / juego!"
+  },
+  "Game": {
+    "GameModal": {
+      "title": {
+        "settings": "Ajustes",
+        "assistance": "Ayuda de control",
+        "errorreport": "Informar un error",
+        "statistic": "Estadísticas de juego"
+      },
+      "Settings": {
+        "audioVolume": "Volumen:",
+        "colorBlindness": "Optimización de bolas para daltónicos:",
+        "colorBlindnessOn": "Un",
+        "colorBlindnessOff": "Fuera",
+        "position": "Posición:",
+        "checkBoxAbsolute": "Absolutamente posicionado",
+        "checkBox4_0": "Siempre abajo a la derecha",
+        "checkBox4_1": "Siempre en la parte inferior izquierda",
+        "checkBox4_2": "Siempre arriba a la izquierda",
+        "checkBox4_3": "Siempre arriba a la derecha",
+        "checkBox6_0": "Siempre en la parte inferior izquierda",
+        "checkBox6_1": "Siempre en el centro a la izquierda",
+        "checkBox6_2": "Siempre arriba a la izquierda",
+        "checkBox6_3": "Siempre arriba a la derecha",
+        "checkBox6_4": "Siempre justo en el medio",
+        "checkBox6_5": "Siempre abajo a la derecha"
+      }
+    },
+    "EndedOverlay": {
+      "statistic": "Estadísticas",
+      "backButton": "atrás",
+      "wonInX": "¡Ganaste {X} movimientos!",
+      "aborted": "El juego fue cancelado",
+      "wonWith1": "Tienes con",
+      "wonWith2": " y",
+      "wonWith3": " ¡ganado!",
+      "wonWith4": " ¡perdió!"
+    },
+    "Statistic": {
+      "Cards": {
+        "title": "tarjetas",
+        "actionCardsTotal": "Número de tarjetas especiales",
+        "actionCardsPlayed": "Número de tarjetas especiales utilizadas",
+        "1o13cardsLayed": "Número de tarjetas de salida",
+        "actionCardsTotalshort": "Cartas especiales",
+        "actionCardsPlayedshort": "usado de eso",
+        "1o13cardsLayedshort": "1/13"
+      },
+      "Actions": {
+        "title": "Comportamiento",
+        "kickedBalls": "Número de bolas lanzadas",
+        "numberSkipped": "Numero de exposiciones",
+        "timePerPlay": "Tiempo por movimiento [s]",
+        "kickedBallsshort": "Arrojado",
+        "numberSkippedshort": "Exponer",
+        "timePerPlayshort": "hora"
+      }
+    },
+    "Instructions": {
+      "needToTrade": "¡Tienes que intercambiar una tarjeta!",
+      "needToChooseCard": "Elegir una tarjeta",
+      "needToWait": "¡Tienes que esperar!",
+      "waitingFor": "Todavía faltan:",
+      "needToNarr": "¡Tienes que pasar tus cartas!",
+      "needToNarrButton": "Para hacer esto, presione el botón",
+      "narrWaitingFor": "Todavía tienen que pasar sus cartas:",
+      "currentlyPlaying": "Actualmente se está reproduciendo:",
+      "needToSkip": "¡Tienes que sentarte!",
+      "needToTeufel": "Jugaste al diablo - ¡juega ahora para {name}!",
+      "yourTurn": "¡Es tu turno!",
+      "needToDiscard": "¡Tienes que descartar una carta!",
+      "buttonOrOtherCard": "Presiona el botón en el medio o elige otra tarjeta",
+      "moveOrOtherCard": "Mueve una bola o elige otra carta",
+      "remainingSteps": "Aún tienes que distribuir {steps} pasos"
+    }
+  },
+  "Games": {
+    "stati": {
+      "lost": "perdió",
+      "won": "ganado",
+      "aborted": "cancelado",
+      "running": "voy"
+    },
+    "tableTitle": "Lista de tus juegos",
+    "tableNoGames": "No se han encontrado juegos.",
+    "tableLoading": "Los juegos se están cargando. Espere por favor.",
+    "columnTitles": {
+      "gameID": "GamesID",
+      "status": "Estado",
+      "teams": "Equipos",
+      "team": "Equipo",
+      "created": "Creado en:",
+      "playerSearch": "Explorar equipos",
+      "statusFilterAll": "Todos",
+      "newGame": "Nuevo juego",
+      "abort": ""
+    }
+  },
+  "Waiting": {
+    "noRoomsPlaceholder": "Lamentablemente, todavía no hay salas de espera abiertas. ¡Crea uno y espera a que tus amigos se unan!",
+    "WaitingGameCreator": {
+      "startButton": "Crea una nueva habitación",
+      "title": "Crear nueva sala de juegos",
+      "submitButton": "Crear",
+      "player4Name": "4 jugadores",
+      "player6Name": "6 jugadores",
+      "teams1Name": "Equipo-Tac",
+      "teams2Name": "2 equipos",
+      "teams3Name": "3 equipos",
+      "meisterTrueName": "Maestro",
+      "meisterFalseName": "Normal",
+      "privateTrueName": "Privado",
+      "privateFalseName": "Público"
+    },
+    "joinRandomGameButton": "Únete al mejor juego",
+    "removePlayerConfirmSelf": "¿Seguro que quiere salir de esta sala de espera?",
+    "removePlayerConfirmOther": "¿Estás seguro de que deseas liberar a un jugador de la sala de espera?",
+    "switchGameConfirm": "¿Seguro que quieres cambiar la sala de espera?"
+  },
+  "Login": {
+    "username": "Nombre de usuario",
+    "password": "contraseña",
+    "passwordRepeat": "repite la contraseña",
+    "email": "Correo electrónico",
+    "emailOrUsername": "Correo electrónico o nombre de usuario",
+    "signIn": "Registrarse",
+    "signUp": "registrarse",
+    "RequestNewPassword": {
+      "button": "Pide una nueva contraseña",
+      "successMsg": "¡Se le ha enviado una nueva contraseña!",
+      "errorMsg": "Ocurrió un problema. ¡Intentar otra vez!"
+    },
+    "SignUp": {
+      "button": "Crear nuevo usuario",
+      "usernameTooShort": "El nombre de usuario debe tener al menos 3 caracteres",
+      "usernameTooLong": "El nombre de usuario puede tener un máximo de 12 caracteres",
+      "usernameWrongChar": "El nombre de usuario solo puede contener letras",
+      "usernameNotAvailable": "El nombre de usuario ya no está disponible",
+      "emailInvalid": "Ingrese un correo electrónico correcto",
+      "emailNotAvailable": "Este correo electrónico ya no es gratuito",
+      "passwordTooShort": "La contraseña debe tener al menos 6 caracteres",
+      "passwordTooLong": "La contraseña puede tener un máximo de 20 caracteres",
+      "passwordUnequal": "Las contraseñas no son similares",
+      "errorMsg": "No se pudo crear el usuario",
+      "successMsg": "Se creó el usuario. ¡Diviértete!"
+    },
+    "SignIn": {
+      "errorMsg": "¡Error de inicio de sesion!",
+      "errorMsgPassword": "¡La contraseña es incorrecta!",
+      "errorMsgEmail": "Tu correo electrónico aún no está activado. Revise su cuenta de correo electrónico. ¿Sin correo electrónico?",
+      "errorMsgEmailLink": "Click aquí para uno nuevo",
+      "errorMsgUser": "¡El usuario no existe!",
+      "activationErrorMsg": "¡La activación de la cuenta falló!",
+      "activationSuccessMsg": "¡Activación de la cuenta exitosa!"
+    },
+    "betaDisclaimer": "Este juego aún está en desarrollo.",
+    "statUsers": "Número de usuarios confirmados:",
+    "statGame4": "Número de juegos completados a 4:",
+    "statGame6": "Número de juegos completados al sexto:"
+  },
+  "Settings": {
+    "ChangeMail": {
+      "header": "Cambiar e-mail",
+      "newMail": "Nueva dirección de correo electrónico",
+      "emailInvalid": "Ingrese un correo electrónico correcto",
+      "password": "contraseña",
+      "button": "Cambiar la dirección de correo electrónico",
+      "successMsg": "Su dirección de correo electrónico se ha cambiado correctamente.",
+      "errorMsgGeneral": "No se pudo cambiar su dirección de correo electrónico. Intentar otra vez",
+      "errorMsgEmail": "Esta dirección de correo electrónico ya no está disponible. Elige otro",
+      "errorMsgPwd": "La contraseña es incorrecta. intentar otra vez",
+      "toastSummaryFailure": "¡Fallido!",
+      "toastSummarySuccess": "¡Correo electrónico cambiado!"
+    },
+    "ChangePassword": {
+      "header": "Cambiar la contraseña",
+      "currentPassword": "Contraseña actual",
+      "newPassword": "Nueva contraseña",
+      "newPasswordRepeat": "Nueva repetición de contraseña",
+      "passwordTooShort": "La contraseña debe tener al menos 6 caracteres",
+      "passwordTooLong": "La contraseña puede tener un máximo de 20 caracteres",
+      "passwordUnequal": "Las contraseñas no son similares",
+      "button": "Cambiar la contraseña",
+      "successMsg": "tu contraseña ha sido cambiada exitosamente",
+      "errorMsgGeneral": "No se pudo cambiar su contraseña. Intentar otra vez",
+      "errorMsgPwd": "La contraseña es incorrecta. intentar otra vez",
+      "toastSummaryFailure": "¡Fallido!",
+      "toastSummarySuccess": "¡Contraseña cambiada!"
+    },
+    "UploadProfilePicture": {
+      "header": "Cargar o eliminar foto de perfil",
+      "ChooseFile": "Seleccionar foto de perfil",
+      "DeletePicture": "Eliminar foto de perfil",
+      "successMsgUpload": "Tu foto de perfil se ha subido y ahora se puede ver",
+      "errorMsgUpload": "Hubo un problema al cargar. Inténtalo de nuevo",
+      "toastSummaryFailureUpload": "¡Subida fallida!",
+      "toastSummarySuccessUpload": "¡Nueva foto de perfil!",
+      "successMsgDelete": "Tu foto de perfil ha sido eliminada",
+      "errorMsgDelete": "Hubo un problema al eliminarlo. Inténtalo de nuevo",
+      "toastSummaryFailureDelete": "¡Error al eliminar!",
+      "toastSummarySuccessDelete": "¡Imagen de perfil eliminada!",
+      "privacyDisclaimer": "Atención: ¡Esta imagen puede ser vista actualmente por todos los usuarios registrados!",
+      "croppingDisclaimer": "Además, no hay ningún elemento de control para seleccionar la sección de pantalla deseada. Por lo tanto, la imagen ya debe estar recortada para que quepa."
+    },
+    "DeleteProfile": {
+      "header": "Quitar perfil",
+      "confirmPrompt": "¡Atención! ¡La eliminación no se puede deshacer! Quieres continuar",
+      "button": "borrar cuenta",
+      "errorTitle": "¡Error al eliminar!",
+      "errorMsg": "Eso es borrar fallado. Inténtalo de nuevo.",
+      "successTitle": "¡Cuenta borrada!",
+      "successMsg": "Su cuenta ha sido eliminada correctamente. Se cerrará la sesión en un momento."
+    },
+    "Language": {
+      "header": "idioma",
+      "de": "alemán",
+      "en": "inglés",
+      "es": "Español",
+      "ru": "ruso",
+      "it": "italiano",
+      "fr": "francés"
+    }
+  },
+  "Profile": {
+    "mostFrequent": "Jugador más común",
+    "mostFrequentExp": "Jugador con el que se jugó la mayoría de los juegos (incluido el modo cooperativo)",
+    "bestPlayer": "Mejor compañero de equipo",
+    "bestPlayerExp": "Jugador que logró la mayor tasa de victorias como compañero de equipo",
+    "worstPlayer": "Archienemigo",
+    "worstPlayerExp": "Jugador que logró la mayor tasa de victorias como oponente",
+    "success": "éxito",
+    "successExp": "Porcentaje de juegos ganados",
+    "generosity": "generosidad",
+    "generosityExp": "Proporción de tarjetas especiales intercambiadas en porcentaje",
+    "aggression": "Agresión",
+    "aggressionExp": "Bolas lanzadas divididas por bolas lanzadas más bolas perdidas",
+    "decision": "Poder de decisión",
+    "decisionExp": "Tiempo medio de juego por movimiento convertido a una escala de 0 a 100. Cualquier cosa más rápida que 10 segundos conduce a un 100 perfecto. Fórmula: '100 * min (1, 10 * número de movimientos / tiempo total de juego)'",
+    "resentment": "Resentimiento",
+    "resentmentExp": "¿Qué porcentaje de las 8 tarjetas se utilizan para suspender?",
+    "usage": "Tasa de uso",
+    "usageExp": "Porcentaje de tarjetas realmente utilizadas",
+    "wIconSymbol": "EN",
+    "wIconExp": "Significa un juego ganado",
+    "lIconSymbol": "L",
+    "lIconExp": "Representa un juego perdido",
+    "tIconSymbol": "T",
+    "tIconExp": "Significa un juego táctico de equipo completo",
+    "expHeader": "Declaraciones de estadísticas",
+    "lastGamesHeader": "Últimos juegos:"
+  }
+}

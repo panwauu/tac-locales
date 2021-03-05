@@ -1,0 +1,363 @@
+{
+  "Home": {
+    "Spielersuche": "Search Users",
+    "Games": "Games",
+    "Waiting": "Find a game",
+    "Tournament": "Competition",
+    "Leaderboard": "Leaderboard",
+    "Settings": "Settings",
+    "Copyright": "Copyright",
+    "Datenschutz": "Data protection",
+    "Impressum": "Imprint",
+    "signout": "Sign out"
+  },
+  "Leaders": {
+    "wins": "Wins",
+    "rank": "Place",
+    "name": "Name",
+    "teams": "Teams",
+    "cards": "Cards",
+    "date": "Date"
+  },
+  "CountdownTimer": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "Tournament": {
+    "deadlinesHeader": "Dates and deadlines",
+    "signUpDeadline": "Registration deadline",
+    "gameTime": "game",
+    "timePerGame": "Time per game",
+    "waitingTeams": "Incomplete teams",
+    "fixTeams": "Permanently registered teams",
+    "fixTeamsnOpenSpots": "Missing teams",
+    "signUpConfirmationText": "Are you sure you have time on game dates? This is very important for everyone's experience!",
+    "teamSignUp": {
+      "openModalButton": "Register team",
+      "title": "Register team",
+      "teamNamePlaceholder": "Teamname",
+      "selectButtonWithPartner": "Register with a permanent partner",
+      "selectButtonAlone": "Mediate partners",
+      "submitButton": "Register team"
+    },
+    "helpModal": {
+      "title": "Help",
+      "signUpHeader": "Registration",
+      "signUpContent": "When registering, first-come-first-served applies. So the team that is complete first comes in. Each added member must explicitly agree to participate. After the tournament is complete, it is no longer possible to cancel.",
+      "gameTimeHeader": "Game dates",
+      "gameTimeContent": "There are fixed time slots for the games at which they must take place. Please make sure that you actually have time for the game dates. In addition, the games must be completed in the specified time.",
+      "tournamentProcessHeader": "Tournament schedule",
+      "tournamentProcessContent": "At the game dates, the games will appear in your game table. They then have to be played. You can use the chat to exchange ideas with the opposing team and also switch to a video / audio chat of your choice.",
+      "winnerHeader": "winner",
+      "winnerContent": "There is a K-O system. The team that wins gets ahead. The last team won. Basically a team has won if the game is won in the required time. If the time is exceeded, the team that played faster wins! It is generally not intended that this will occur."
+    },
+    "StatusBadge": {
+      "signUpWaiting": "Registration phase planned",
+      "signUpWaitingSeverity": "info",
+      "signUp": "Registration phase is running",
+      "signUpSeverity": "warning",
+      "signUpEnded": "Registration phase completed",
+      "signUpEndedSeverity": "info",
+      "running": "Tournament is running",
+      "runningSeverity": "warning",
+      "ended": "Tournament ended",
+      "endedSeverity": "success",
+      "signUpFailed": "Not enough participants!",
+      "signUpFailedSeverity": "danger"
+    },
+    "CountdownTimer": {
+      "signUpWaiting": "Registration phase begins in:",
+      "signUp": "Registration phase ends in:",
+      "signUpEnded": "Tournament starts in:"
+    },
+    "Brackets": {
+      "bracketList0": "The final",
+      "bracketList1": "Semifinals",
+      "bracketList2": "Quarter finals",
+      "bracketList3": "Round of 16",
+      "bracketList4": "Round of 16",
+      "bracketTBDTeam": "Not yet known"
+    },
+    "Toast": {
+      "left-tournament-summary": "Leave the tournament",
+      "left-tournament-detail": "You have canceled your participation in the tournament {tournamentTitle}.",
+      "team-is-fix-summary": "Tournament team complete",
+      "team-is-fix-detail": "Your team {teamTitle} is now complete and scheduled for the tournament {tournamentTitle}.",
+      "team-is-waiting-summary": "Tournament team incomplete",
+      "team-is-waiting-detail": "Your team {teamTitle} is now registered but not yet complete. You are missing a teammate or your teammate has to confirm the registration!",
+      "partner-left-summary": "Partner has left the tournament team",
+      "partner-left-detail": "Your partner {partner} left your team {teamName} for the tournament {tournamentName}. You are now missing a partner.",
+      "signUp-failed-summary": "Tournament does not take place",
+      "signUp-failed-detail": "The tournament {tournamentName} will not take place. Unfortunately not enough participants were found.",
+      "signUpEnded-part-summary": "Congratulations on participating in the tournament",
+      "signUpEnded-part-detail": "The tournament {tournamentName} will take place with you. Remember to enter the dates in the calendar!",
+      "signUpEnded-noPart-summary": "Tournament takes place without you",
+      "signUpEnded-noPart-detail": "Unfortunately you couldn't get a place in the {tournamentName} tournament. Try again next time."
+    }
+  },
+  "GameView": {
+    "socketDisconnectedOverlay": "The connection to the server is interrupted. We're trying to reconnect!",
+    "reconnectionFailedSummary": "Connection problem",
+    "reconnectionFailedDetail": "Oh no. There was a problem connecting to the server. Please log in again. Good luck!"
+  },
+  "Chat": {
+    "allChannel": "General",
+    "waitingChannel": "Waiting room / game",
+    "submitButton": "Send",
+    "textPlaceholder": "Type a message",
+    "allNoMessagesPlaceholder": "Messages can be exchanged with all users here. These are not saved!",
+    "waitingNoMessagesPlaceholder": "Here messages can be exchanged with the users in your old waiting room / game. These are not saved and only reach the users in your room / game!"
+  },
+  "Game": {
+    "GameModal": {
+      "title": {
+        "settings": "Settings",
+        "assistance": "Control help",
+        "errorreport": "Report an error",
+        "statistic": "Game statistics"
+      },
+      "Settings": {
+        "audioVolume": "Volume:",
+        "colorBlindness": "Optimizing balls for color blind people:",
+        "colorBlindnessOn": "An",
+        "colorBlindnessOff": "Out",
+        "position": "Position:",
+        "checkBoxAbsolute": "Absolutely positioned",
+        "checkBox4_0": "Always at the bottom right",
+        "checkBox4_1": "Always at the bottom left",
+        "checkBox4_2": "Always at the top left",
+        "checkBox4_3": "Always at the top right",
+        "checkBox6_0": "Always at the bottom left",
+        "checkBox6_1": "Always center left",
+        "checkBox6_2": "Always at the top left",
+        "checkBox6_3": "Always at the top right",
+        "checkBox6_4": "Always right in the middle",
+        "checkBox6_5": "Always at the bottom right"
+      }
+    },
+    "EndedOverlay": {
+      "statistic": "Statistics",
+      "backButton": "Back",
+      "wonInX": "You won {X} moves!",
+      "aborted": "The game was canceled",
+      "wonWith1": "You have with",
+      "wonWith2": " and",
+      "wonWith3": " won!",
+      "wonWith4": " lost!"
+    },
+    "Statistic": {
+      "Cards": {
+        "title": "cards",
+        "actionCardsTotal": "Number of special cards",
+        "actionCardsPlayed": "Number of special cards used",
+        "1o13cardsLayed": "Number of exit cards",
+        "actionCardsTotalshort": "Special cards",
+        "actionCardsPlayedshort": "used of it",
+        "1o13cardsLayedshort": "1/13"
+      },
+      "Actions": {
+        "title": "Actions",
+        "kickedBalls": "Number of balls thrown",
+        "numberSkipped": "Number of exposures",
+        "timePerPlay": "Time per move [s]",
+        "kickedBallsshort": "Thrown",
+        "numberSkippedshort": "Expose",
+        "timePerPlayshort": "time"
+      }
+    },
+    "Instructions": {
+      "needToTrade": "You have to swap a card!",
+      "needToChooseCard": "Choose a card",
+      "needToWait": "You have to wait!",
+      "waitingFor": "There are still missing:",
+      "needToNarr": "You have to pass your cards!",
+      "needToNarrButton": "To do this, press the button",
+      "narrWaitingFor": "They still have to pass on their cards:",
+      "currentlyPlaying": "It is currently playing:",
+      "needToSkip": "You have to sit out!",
+      "needToTeufel": "You played the devil - play now for {name}!",
+      "yourTurn": "It's your turn!",
+      "needToDiscard": "You have to discard a card!",
+      "buttonOrOtherCard": "Press the button in the middle or choose another card",
+      "moveOrOtherCard": "Move a ball or choose another card",
+      "remainingSteps": "You still have to distribute {steps} steps"
+    }
+  },
+  "Games": {
+    "stati": {
+      "lost": "lost",
+      "won": "won",
+      "aborted": "canceled",
+      "running": "ongoing"
+    },
+    "tableTitle": "List of your games",
+    "tableNoGames": "No games found.",
+    "tableLoading": "Games are loading. Please wait.",
+    "columnTitles": {
+      "gameID": "GamesID",
+      "status": "Status",
+      "teams": "Teams",
+      "team": "Team",
+      "created": "Created on:",
+      "playerSearch": "Browse teams",
+      "statusFilterAll": "All",
+      "newGame": "New game",
+      "abort": ""
+    }
+  },
+  "Waiting": {
+    "noRoomsPlaceholder": "Unfortunately there are no open waiting rooms yet. Create one and wait for your friends to join!",
+    "WaitingGameCreator": {
+      "startButton": "Create a new room",
+      "title": "Create new game room",
+      "submitButton": "Create",
+      "player4Name": "4 players",
+      "player6Name": "6 players",
+      "teams1Name": "Team-Tac",
+      "teams2Name": "2 Teams",
+      "teams3Name": "3 Teams",
+      "meisterTrueName": "master",
+      "meisterFalseName": "Normal",
+      "privateTrueName": "Private",
+      "privateFalseName": "Public"
+    },
+    "joinRandomGameButton": "Join the best game",
+    "removePlayerConfirmSelf": "Are you sure you want to leave this waiting room?",
+    "removePlayerConfirmOther": "Are you sure you want to release a player from the waiting room?",
+    "switchGameConfirm": "Are you sure you want to change the waiting room?"
+  },
+  "Login": {
+    "username": "Username",
+    "password": "Password",
+    "passwordRepeat": "Repeat password",
+    "email": "E-mail",
+    "emailOrUsername": "Email or username",
+    "signIn": "Login",
+    "signUp": "Register",
+    "RequestNewPassword": {
+      "button": "Request a new password",
+      "successMsg": "You have been sent a new password!",
+      "errorMsg": "A problem occured. Try again!"
+    },
+    "SignUp": {
+      "button": "Create new user",
+      "usernameTooShort": "Username must have at least 3 characters",
+      "usernameTooLong": "Username can have a maximum of 12 characters",
+      "usernameWrongChar": "Username can only contain letters",
+      "usernameNotAvailable": "The username is no longer available",
+      "emailInvalid": "Please enter a correct email",
+      "emailNotAvailable": "This email is no longer free",
+      "passwordTooShort": "Password must have at least 6 characters",
+      "passwordTooLong": "Password can have a maximum of 20 characters",
+      "passwordUnequal": "Passwords are not the same",
+      "errorMsg": "User could not be created",
+      "successMsg": "User was created. Have fun!"
+    },
+    "SignIn": {
+      "errorMsg": "Login failed!",
+      "errorMsgPassword": "Password is wrong!",
+      "errorMsgEmail": "Your email is not yet activated. Check your email account. No email?",
+      "errorMsgEmailLink": "Click here for a new one",
+      "errorMsgUser": "Username does not exist!",
+      "activationErrorMsg": "Activation of the account failed!",
+      "activationSuccessMsg": "Activation of the account successful!"
+    },
+    "betaDisclaimer": "This game is still under development.",
+    "statUsers": "Number of confirmed users:",
+    "statGame4": "Number of completed games to 4:",
+    "statGame6": "Number of completed games to 6:"
+  },
+  "Settings": {
+    "ChangeMail": {
+      "header": "Change E-Mail",
+      "newMail": "New E-mail adress",
+      "emailInvalid": "Please enter a correct email",
+      "password": "password",
+      "button": "Change E-Mail address",
+      "successMsg": "Your email address has been changed successfully",
+      "errorMsgGeneral": "Your email address could not be changed. Try again",
+      "errorMsgEmail": "This email address is no longer available. Choose another one",
+      "errorMsgPwd": "The password was wrong. try again",
+      "toastSummaryFailure": "Failed!",
+      "toastSummarySuccess": "Email changed!"
+    },
+    "ChangePassword": {
+      "header": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "newPasswordRepeat": "New password repetition",
+      "passwordTooShort": "Password must have at least 6 characters",
+      "passwordTooLong": "Password can have a maximum of 20 characters",
+      "passwordUnequal": "Passwords are not the same",
+      "button": "Change Password",
+      "successMsg": "Your password has been changed successfully",
+      "errorMsgGeneral": "Your password could not be changed. Try again",
+      "errorMsgPwd": "The password was wrong. try again",
+      "toastSummaryFailure": "Failed!",
+      "toastSummarySuccess": "Password changed!"
+    },
+    "UploadProfilePicture": {
+      "header": "Upload or remove profile picture",
+      "ChooseFile": "Select profile picture",
+      "DeletePicture": "Remove profile picture",
+      "successMsgUpload": "Your profile picture has been uploaded and can now be seen",
+      "errorMsgUpload": "There was a problem uploading. Please try again",
+      "toastSummaryFailureUpload": "Upload failed!",
+      "toastSummarySuccessUpload": "New profile picture!",
+      "successMsgDelete": "Your profile picture has been deleted",
+      "errorMsgDelete": "There was a problem deleting it. Please try again",
+      "toastSummaryFailureDelete": "Delete failed!",
+      "toastSummarySuccessDelete": "Profile picture deleted!",
+      "privacyDisclaimer": "Attention: This picture can currently be viewed by all registered users!",
+      "croppingDisclaimer": "In addition, there is no control element to select the desired screen section. So the picture must already be cropped to fit."
+    },
+    "DeleteProfile": {
+      "header": "Remove profile",
+      "confirmPrompt": "Attention! The deletion cannot be undone! Do you want to continue",
+      "button": "delete account",
+      "errorTitle": "Delete Failed!",
+      "errorMsg": "That is delete failed. Please try again.",
+      "successTitle": "Account deleted!",
+      "successMsg": "Your account has been successfully deleted. You will be logged off in a moment."
+    },
+    "Language": {
+      "header": "language",
+      "de": "German",
+      "en": "English",
+      "es": "Spanish",
+      "ru": "Russian",
+      "it": "Italian",
+      "fr": "French"
+    }
+  },
+  "Profile": {
+    "mostFrequent": "Most common player",
+    "mostFrequentExp": "Player with whom the most games (including co-op) were played",
+    "bestPlayer": "Best teammate",
+    "bestPlayerExp": "Player who achieved the highest win rate as a teammate",
+    "worstPlayer": "Archenemy",
+    "worstPlayerExp": "Player who achieved the highest win rate as an opponent",
+    "success": "success",
+    "successExp": "Percentage of games won",
+    "generosity": "generosity",
+    "generosityExp": "Share of special cards exchanged in percent",
+    "aggression": "Aggression",
+    "aggressionExp": "Thrown balls divided by thrown plus lost balls",
+    "decision": "Decision-making power",
+    "decisionExp": "Average playing time per move converted to a scale of 0-100. Anything faster than 10s leads to a perfect 100. Formula: '100 * min (1, 10 * number of moves / total playing time)'",
+    "resentment": "Resentment",
+    "resentmentExp": "What percentage of the 8 cards are used to suspend",
+    "usage": "Usage rate",
+    "usageExp": "Percentage of cards actually used",
+    "wIconSymbol": "IN",
+    "wIconExp": "Stands for a game won",
+    "lIconSymbol": "L",
+    "lIconExp": "Stands for a lost game",
+    "tIconSymbol": "T",
+    "tIconExp": "Stands for a completed team tac game",
+    "expHeader": "Statements of statistics",
+    "lastGamesHeader": "Last games:"
+  }
+}
