@@ -94,7 +94,15 @@
       "signUpEnded-part-summary": "Gratulation zur Turnierteilnahme",
       "signUpEnded-part-detail": "Das Turnier {tournamentName} wird mit dir stattfinden. Denke daran dir die Termine in den Kalender einzutragen!",
       "signUpEnded-noPart-summary": "Turnier findet ohne dich statt",
-      "signUpEnded-noPart-detail": "Leider hast du keinen Platz im Turnier {tournamentName} ergattern können. Versuche es bei nächsten Mal erneut."
+      "signUpEnded-noPart-detail": "Leider hast du keinen Platz im Turnier {tournamentName} ergattern können. Versuche es bei nächsten Mal erneut.",
+      "started-summary": "Turnier gestartet",
+      "started-detail": "Das Turnier {tournamentName} geht los. Du kannst über das Menu zu der Turnier Seite navigieren und den Stand verfolgen.",
+      "round-started-summary": "{roundName} gestartet",
+      "round-started-detail": "Das Turnier {tournamentName} geht in die nächste Runde. Die Teilnehmer können die Spiele jetzt in der Spieletabelle sehen.",
+      "round-ended-summary": "{roundName} beendet",
+      "round-ended-detail": "Das {roundName} des Turniers {tournamentName} ist jetzt vorbei.",
+      "ended-summary": "Turnier beendet",
+      "ended-detail": "Das Turnier {tournamentName} wurde beendet. Gratulation an das Team {teamName} für das {players1} und {players2} gespielt haben."
     }
   },
   "GameView": {

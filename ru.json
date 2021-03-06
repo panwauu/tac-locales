@@ -94,7 +94,15 @@
       "signUpEnded-part-summary": "Поздравляю с участием в турнире",
       "signUpEnded-part-detail": "Турнир {tournamentName} состоится вместе с вами. Не забудьте указать даты в календаре!",
       "signUpEnded-noPart-summary": "Турнир проходит без тебя",
-      "signUpEnded-noPart-detail": "К сожалению, вам не удалось попасть в турнир {tournamentName}. Попробуй еще раз в следующий раз."
+      "signUpEnded-noPart-detail": "К сожалению, вам не удалось попасть в турнир {tournamentName}. Попробуй еще раз в следующий раз.",
+      "started-summary": "Турнир начался",
+      "started-detail": "Турнир {tournamentName} начинается. Вы можете использовать меню для перехода на страницу турнира и отслеживания статуса.",
+      "round-started-summary": "{roundName} началось",
+      "round-started-detail": "Турнир {tournamentName} переходит в следующий раунд. Теперь участники могут видеть игры в таблице игр.",
+      "round-ended-summary": "{roundName} готово",
+      "round-ended-detail": "{roundName} турнира {tournamentName} завершен.",
+      "ended-summary": "Турнир закончился",
+      "ended-detail": "Турнир {tournamentName} завершен. Поздравляем команду {teamName} с игрой в {players1} и {players2}."
     }
   },
   "GameView": {

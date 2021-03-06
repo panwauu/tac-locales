@@ -94,7 +94,15 @@
       "signUpEnded-part-summary": "Congratulations on participating in the tournament",
       "signUpEnded-part-detail": "The tournament {tournamentName} will take place with you. Remember to enter the dates in the calendar!",
       "signUpEnded-noPart-summary": "Tournament takes place without you",
-      "signUpEnded-noPart-detail": "Unfortunately you couldn't get a place in the {tournamentName} tournament. Try again next time."
+      "signUpEnded-noPart-detail": "Unfortunately you couldn't get a place in the {tournamentName} tournament. Try again next time.",
+      "started-summary": "Tournament started",
+      "started-detail": "The tournament {tournamentName} starts. You can use the menu to navigate to the tournament page and follow the status.",
+      "round-started-summary": "{roundName} started",
+      "round-started-detail": "The tournament {tournamentName} goes into the next round. Participants can now see the games in the games table.",
+      "round-ended-summary": "{roundName} finished",
+      "round-ended-detail": "The {roundName} of the {tournamentName} tournament is now over.",
+      "ended-summary": "Tournament ended",
+      "ended-detail": "The tournament {tournamentName} has ended. Congratulations to the team {teamName} for playing {players1} and {players2}."
     }
   },
   "GameView": {
@@ -121,8 +129,8 @@
       "Settings": {
         "audioVolume": "Volume:",
         "colorBlindness": "Optimizing balls for color blind people:",
-        "colorBlindnessOn": "On",
-        "colorBlindnessOff": "Off",
+        "colorBlindnessOn": "An",
+        "colorBlindnessOff": "Out",
         "position": "Position:",
         "checkBoxAbsolute": "Absolutely positioned",
         "checkBox4_0": "Always at the bottom right",
