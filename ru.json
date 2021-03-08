@@ -150,10 +150,9 @@
       "backButton": "Назад",
       "wonInX": "Вы выиграли ходов: {X}!",
       "aborted": "Игра была отменена",
-      "wonWith1": "У вас есть с",
-      "wonWith2": " и",
-      "wonWith3": " выиграл!",
-      "wonWith4": " потерял!"
+      "wonWith": "Вы выиграли с помощью {players}!",
+      "lostWith": "Вы проиграли с {players}!",
+      "playersConnector": "и"
     },
     "Statistic": {
       "Cards": {

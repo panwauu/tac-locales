@@ -150,10 +150,9 @@
       "backButton": "Indietro",
       "wonInX": "Hai vinto {X} mosse!",
       "aborted": "Il gioco è stato annullato",
-      "wonWith1": "Hai con",
-      "wonWith2": " e",
-      "wonWith3": " ha vinto!",
-      "wonWith4": " perso!"
+      "wonWith": "Hai vinto con {players}!",
+      "lostWith": "Hai perso con {players}!",
+      "playersConnector": "e"
     },
     "Statistic": {
       "Cards": {

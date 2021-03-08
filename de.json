@@ -150,10 +150,9 @@
       "backButton": "Zurück",
       "wonInX": "Ihr habt in {X} Zügen gewonnen!",
       "aborted": "Das Spiel wurde abgebrochen",
-      "wonWith1": "Du hast mit ",
-      "wonWith2": " und ",
-      "wonWith3": " gewonnen!",
-      "wonWith4": " verloren!"
+      "wonWith": "Du hast mit {players} gewonnen!",
+      "lostWith": "Du hast mit {players} verloren!",
+      "playersConnector": "und"
     },
     "Statistic": {
       "Cards": {

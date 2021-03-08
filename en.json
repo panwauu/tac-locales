@@ -150,10 +150,9 @@
       "backButton": "Back",
       "wonInX": "You won {X} moves!",
       "aborted": "The game was canceled",
-      "wonWith1": "You have with",
-      "wonWith2": " and",
-      "wonWith3": " won!",
-      "wonWith4": " lost!"
+      "wonWith": "You won with {players}!",
+      "lostWith": "You lost with {players}!",
+      "playersConnector": "and"
     },
     "Statistic": {
       "Cards": {
