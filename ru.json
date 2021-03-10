@@ -150,28 +150,28 @@
       "backButton": "Назад",
       "wonInX": "Вы выиграли ходов: {X}!",
       "aborted": "Игра была отменена",
-      "wonWith": "Вы выиграли с помощью {players}!",
+      "wonWith": "Вы выиграли с {players}!",
       "lostWith": "Вы проиграли с {players}!",
       "playersConnector": "и"
     },
     "Statistic": {
       "Cards": {
-        "title": "открытки",
+        "title": "Карты",
         "actionCardsTotal": "Количество специальных карт",
         "actionCardsPlayed": "Количество использованных специальных карт",
-        "1o13cardsLayed": "Количество выходов",
+        "1o13cardsLayed": "Количество выходов 1/13",
         "actionCardsTotalshort": "Специальные карты",
-        "actionCardsPlayedshort": "использовал это",
+        "actionCardsPlayedshort": "Использованных",
         "1o13cardsLayedshort": "1/13"
       },
       "Actions": {
         "title": "Действия",
-        "kickedBalls": "Количество загнанных шаров",
+        "kickedBalls": "Количество убитых шаров",
         "numberSkipped": "Количество пропусков",
         "timePerPlay": "Время на ход [с]",
-        "kickedBallsshort": "Загнанный",
-        "numberSkippedshort": "Пропуски",
-        "timePerPlayshort": "время"
+        "kickedBallsshort": "Убийства",
+        "numberSkippedshort": "Пропусти",
+        "timePerPlayshort": "Время"
       }
     },
     "Instructions": {
@@ -208,7 +208,7 @@
       "teams": "Команды",
       "team": "Команда",
       "created": "Дата игры:",
-      "playerSearch": "Поиск команды",
+      "playerSearch": "Поиск игрока",
       "statusFilterAll": "Все",
       "newGame": "Новая игра",
       "abort": "Отменить"
@@ -230,7 +230,7 @@
       "privateTrueName": "Закрытая",
       "privateFalseName": "Открытая"
     },
-    "joinRandomGameButton": "Присоединяйтесь к лучшей игре",
+    "joinRandomGameButton": "Присоединяйтесь к случайной игре",
     "removePlayerConfirmSelf": "Вы уверены, что хотите покинуть эту комнату?",
     "removePlayerConfirmOther": "Вы уверены, что хотите убрать игрока из комнаты?",
     "switchGameConfirm": "Вы уверены, что хотите сменить комнату?"
@@ -345,7 +345,7 @@
     "bestPlayer": "Лучший напарник",
     "bestPlayerExp": "Игрок, с которым вы лучше всего сыграли в команде",
     "worstPlayer": "Заклятый враг",
-    "worstPlayerExp": "Игрок, набравший наибольшее количество побед в качестве оппонента",
+    "worstPlayerExp": "Игрок, против которого вы сыграли хуже всего",
     "success": "Победы",
     "successExp": "Процент выигранных игр",
     "generosity": "Щедрость",
