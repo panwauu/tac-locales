@@ -156,22 +156,22 @@
     },
     "Statistic": {
       "Cards": {
-        "title": "cards",
-        "actionCardsTotal": "Number of special cards",
-        "actionCardsPlayed": "Number of special cards used",
-        "1o13cardsLayed": "Number of exit cards",
+        "title": "Cards",
+        "actionCardsTotal": "Amount of special cards",
+        "actionCardsPlayed": "Amount of used special cards",
+        "1o13cardsLayed": "Amount of 1/13-Cards",
         "actionCardsTotalshort": "Special cards",
         "actionCardsPlayedshort": "used of it",
         "1o13cardsLayedshort": "1/13"
       },
       "Actions": {
         "title": "Actions",
-        "kickedBalls": "Number of balls thrown",
-        "numberSkipped": "Number of exposures",
+        "kickedBalls": "Number of kicked balls",
+        "numberSkipped": "Number of skipped moves",
         "timePerPlay": "Time per move [s]",
-        "kickedBallsshort": "Thrown",
-        "numberSkippedshort": "Expose",
-        "timePerPlayshort": "time"
+        "kickedBallsshort": "Kicked",
+        "numberSkippedshort": "Skipped",
+        "timePerPlayshort": "Time"
       }
     },
     "Instructions": {
