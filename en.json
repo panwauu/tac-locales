@@ -26,6 +26,7 @@
     "seconds": "Seconds"
   },
   "Tournament": {
+    "backButton": "To the current tournament",
     "deadlinesHeader": "Dates and deadlines",
     "signUpDeadline": "Registration deadline",
     "gameTime": "game",
@@ -55,17 +56,11 @@
     },
     "StatusBadge": {
       "signUpWaiting": "Registration phase planned",
-      "signUpWaitingSeverity": "info",
       "signUp": "Registration phase is running",
-      "signUpSeverity": "warning",
       "signUpEnded": "Registration phase completed",
-      "signUpEndedSeverity": "info",
       "running": "Tournament is running",
-      "runningSeverity": "warning",
       "ended": "Tournament ended",
-      "endedSeverity": "success",
-      "signUpFailed": "Not enough participants!",
-      "signUpFailedSeverity": "danger"
+      "signUpFailed": "Not enough participants!"
     },
     "CountdownTimer": {
       "signUpWaiting": "Registration phase begins in:",
@@ -103,12 +98,40 @@
       "round-ended-detail": "The {roundName} of the {tournamentName} tournament is now over.",
       "ended-summary": "Tournament ended",
       "ended-detail": "The tournament {tournamentName} has ended. Congratulations to the team {teamName} for playing {players1} and {players2}."
-    }
+    },
+    "pastTableHeader": "Past tournaments",
+    "pastTableTitleCol": "Tournament title",
+    "pastTableStartCol": "Start date"
   },
   "GameView": {
     "socketDisconnectedOverlay": "The connection to the server is interrupted. We're trying to reconnect!",
     "reconnectionFailedSummary": "Connection problem",
     "reconnectionFailedDetail": "Oh no. There was a problem connecting to the server. Please log in again. Good luck!"
+  },
+  "Landing": {
+    "Games": {
+      "tooltip": "To the games",
+      "title": "Your games",
+      "openGames": "{X} open games",
+      "wonGames": "{X} games won",
+      "lostGames": "{X} lost games",
+      "teamGames": "{X} Team-Tac games",
+      "lastGames": "Last games:"
+    },
+    "Waiting": {
+      "tooltip": "To the waiting rooms",
+      "title": "Warteraum",
+      "inRoom": "You are part of a room",
+      "inNoRoom": "You are not in any waiting room",
+      "playersWaiting": "{X} players waiting",
+      "openRooms": "{X} open spaces"
+    },
+    "Tournament": {
+      "tooltip": "To the tournaments",
+      "title": "Tournaments",
+      "lastWinners": "Last winners:",
+      "noActiveTournament": "No active tournaments"
+    }
   },
   "Chat": {
     "allChannel": "General",

@@ -26,6 +26,7 @@
     "seconds": "Секунды"
   },
   "Tournament": {
+    "backButton": "На текущий турнир",
     "deadlinesHeader": "Регистрация и расписание",
     "signUpDeadline": "Дата окончания регистрации",
     "gameTime": "игра",
@@ -55,17 +56,11 @@
     },
     "StatusBadge": {
       "signUpWaiting": "Запланирован этап регистрации",
-      "signUpWaitingSeverity": "Информация",
       "signUp": "Фаза регистрации идет",
-      "signUpSeverity": "предупреждение",
       "signUpEnded": "Фаза регистрации завершена",
-      "signUpEndedSeverity": "Информация",
       "running": "Турнир идет",
-      "runningSeverity": "предупреждение",
       "ended": "Турнир закончился",
-      "endedSeverity": "успех",
-      "signUpFailed": "Недостаточно участников!",
-      "signUpFailedSeverity": "Опасность"
+      "signUpFailed": "Недостаточно участников!"
     },
     "CountdownTimer": {
       "signUpWaiting": "Фаза регистрации начинается через:",
@@ -103,12 +98,40 @@
       "round-ended-detail": "{roundName} турнира {tournamentName} завершен.",
       "ended-summary": "Турнир закончился",
       "ended-detail": "Турнир {tournamentName} завершен. Поздравляем команду {teamName} с игрой в {players1} и {players2}."
-    }
+    },
+    "pastTableHeader": "Прошедшие турниры",
+    "pastTableTitleCol": "Название турнира",
+    "pastTableStartCol": "Дата начала"
   },
   "GameView": {
     "socketDisconnectedOverlay": "Связь с сервером прервана. Мы пытаемся восстановить соединение!",
     "reconnectionFailedSummary": "Проблема соединения",
     "reconnectionFailedDetail": "О нет. Не удалось подключиться к серверу. Пожалуйста, войдите снова. Удачи!"
+  },
+  "Landing": {
+    "Games": {
+      "tooltip": "К играм",
+      "title": "Ваши игры",
+      "openGames": "{X} открытых игр",
+      "wonGames": "Выигранных игр: {X}",
+      "lostGames": "{X} проигранных игр",
+      "teamGames": "{X} Игры Team-Tac",
+      "lastGames": "Последние игры:"
+    },
+    "Waiting": {
+      "tooltip": "В залы ожидания",
+      "title": "Warteraum",
+      "inRoom": "Вы часть комнаты",
+      "inNoRoom": "Вы не в зале ожидания",
+      "playersWaiting": "{X} игроков ждут",
+      "openRooms": "{X} открытые пространства"
+    },
+    "Tournament": {
+      "tooltip": "На турниры",
+      "title": "Турниры",
+      "lastWinners": "Последние победители:",
+      "noActiveTournament": "Нет активных турниров"
+    }
   },
   "Chat": {
     "allChannel": "Общий",

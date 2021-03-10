@@ -26,6 +26,7 @@
     "seconds": "Sekunden"
   },
   "Tournament": {
+    "backButton": "Zum aktuellen Turnier",
     "deadlinesHeader": "Termine und Fristen",
     "signUpDeadline": "Anmeldeschluss",
     "gameTime": "Spiel",
@@ -55,17 +56,11 @@
     },
     "StatusBadge": {
       "signUpWaiting": "Anmeldephase geplant",
-      "signUpWaitingSeverity": "info",
       "signUp": "Anmeldephase läuft",
-      "signUpSeverity": "warning",
       "signUpEnded": "Anmeldephase abgeschlossen",
-      "signUpEndedSeverity": "info",
       "running": "Turnier läuft",
-      "runningSeverity": "warning",
       "ended": "Turnier beendet",
-      "endedSeverity": "success",
-      "signUpFailed": "Nicht genug Teilnehmer!",
-      "signUpFailedSeverity": "danger"
+      "signUpFailed": "Nicht genug Teilnehmer!"
     },
     "CountdownTimer": {
       "signUpWaiting": "Anmeldephase beginnt in:",
@@ -103,12 +98,40 @@
       "round-ended-detail": "Das {roundName} des Turniers {tournamentName} ist jetzt vorbei.",
       "ended-summary": "Turnier beendet",
       "ended-detail": "Das Turnier {tournamentName} wurde beendet. Gratulation an das Team {teamName} für das {players1} und {players2} gespielt haben."
-    }
+    },
+    "pastTableHeader": "Vergangene Turniere",
+    "pastTableTitleCol": "Turniertitel",
+    "pastTableStartCol": "Startdatum"
   },
   "GameView": {
     "socketDisconnectedOverlay": "Die Verbindung zum Server ist unterbrochen. Wir versuchen die Verbindung wiederherzustellen!",
     "reconnectionFailedSummary": "Verbindungsproblem",
     "reconnectionFailedDetail": "Oh nein. Es gab ein Problem mit der Verbindung zum Server. Bitte melde dich erneut an. Viel Glück!"
+  },
+  "Landing": {
+    "Games": {
+      "tooltip": "Zu den Spielen",
+      "title": "Deine Spiele",
+      "openGames": "{X} offene Spiele",
+      "wonGames": "{X} gewonnene Spiele",
+      "lostGames": "{X} verlorene Spiele",
+      "teamGames": "{X} Team-Tac Spiele",
+      "lastGames": "Letzte Spiele:"
+    },
+    "Waiting": {
+      "tooltip": "Zu den Warteräumen",
+      "title": "Warteraum",
+      "inRoom": "Du bist Teil eines Raums",
+      "inNoRoom": "Du bist in keinem Warteraum",
+      "playersWaiting": "{X} wartende Spieler",
+      "openRooms": "{X} offene Räume"
+    },
+    "Tournament": {
+      "tooltip": "Zu den Turnieren",
+      "title": "Turniere",
+      "lastWinners": "Letzte Sieger:",
+      "noActiveTournament": "Keine aktiven Turniere"
+    }
   },
   "Chat": {
     "allChannel": "Allgemein",
@@ -189,7 +212,7 @@
       "needToDiscard": "Du musst eine Karte abwerfen!",
       "buttonOrOtherCard": "Betätige den Button in der Mitte oder wähle eine andere Karte",
       "moveOrOtherCard": "Bewege eine Kugel oder wähle eine andere Karte",
-      "remainingSteps" : "Du musst noch {steps} Schritte verteilen"
+      "remainingSteps": "Du musst noch {steps} Schritte verteilen"
     }
   },
   "Games": {
