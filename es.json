@@ -1,4 +1,18 @@
 {
+  "Stats": {
+    "headerTable": "Totales",
+    "headerDays": "Nuevos usuarios / juegos por día de la semana",
+    "headerWeeks": "Nuevos usuarios / juegos por semana calendario",
+    "users": "usuario",
+    "games": "Juegos",
+    "monday": "lunes",
+    "tuesday": "martes",
+    "wednesday": "miércoles",
+    "thursday": "jueves",
+    "friday": "viernes",
+    "saturday": "sábado",
+    "sunday": "domingo"
+  },
   "Home": {
     "Spielersuche": "Casamentero",
     "Games": "Juegos",
@@ -6,6 +20,7 @@
     "Tournament": "competencia",
     "Leaderboard": "Tabla de clasificación",
     "Settings": "Ajustes",
+    "Stats": "Estadísticas del servidor",
     "Copyright": "Derechos de autor",
     "Datenschutz": "Protección de Datos",
     "Impressum": "imprimir",
@@ -154,6 +169,7 @@
         "colorBlindness": "Optimización de bolas para daltónicos:",
         "colorBlindnessOn": "Un",
         "colorBlindnessOff": "Fuera",
+        "displayGameText": "Mostrar texto del juego:",
         "position": "Posición:",
         "checkBoxAbsolute": "Absolutamente posicionado",
         "checkBox4_0": "Siempre abajo a la derecha",
@@ -341,7 +357,11 @@
       "toastSummaryFailureDelete": "¡Error al eliminar!",
       "toastSummarySuccessDelete": "¡Imagen de perfil eliminada!",
       "privacyDisclaimer": "Atención: ¡Esta imagen puede ser vista actualmente por todos los usuarios registrados!",
-      "croppingDisclaimer": "Además, no hay ningún elemento de control para seleccionar la sección de pantalla deseada. Por lo tanto, la imagen ya debe estar recortada para que quepa."
+      "Modal": {
+        "header": "Recortar foto de perfil",
+        "reset": "Reiniciar",
+        "submit": "Subir"
+      }
     },
     "DeleteProfile": {
       "header": "Quitar perfil",

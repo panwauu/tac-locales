@@ -1,4 +1,18 @@
 {
+  "Stats": {
+    "headerTable": "Totaux",
+    "headerDays": "Nouveaux utilisateurs / jeux par jour de la semaine",
+    "headerWeeks": "Nouveaux utilisateurs / jeux par semaine calendaire",
+    "users": "utilisateur",
+    "games": "Jeux",
+    "monday": "Lundi",
+    "tuesday": "mardi",
+    "wednesday": "Mercredi",
+    "thursday": "jeudi",
+    "friday": "vendredi",
+    "saturday": "samedi",
+    "sunday": "dimanche"
+  },
   "Home": {
     "Spielersuche": "Matchmaking",
     "Games": "Jeux",
@@ -6,6 +20,7 @@
     "Tournament": "concurrence",
     "Leaderboard": "Classement",
     "Settings": "Réglages",
+    "Stats": "Statistiques du serveur",
     "Copyright": "droits d'auteur",
     "Datenschutz": "Protection des données",
     "Impressum": "imprimer",
@@ -154,6 +169,7 @@
         "colorBlindness": "Optimiser les balles pour les daltoniens:",
         "colorBlindnessOn": "Une",
         "colorBlindnessOff": "En dehors",
+        "displayGameText": "Afficher le texte du jeu:",
         "position": "Positionner:",
         "checkBoxAbsolute": "Absolument positionné",
         "checkBox4_0": "Toujours en bas à droite",
@@ -341,7 +357,11 @@
       "toastSummaryFailureDelete": "La suppression a échoué!",
       "toastSummarySuccessDelete": "Photo de profil supprimée!",
       "privacyDisclaimer": "Attention: Cette photo peut actuellement être vue par tous les utilisateurs enregistrés!",
-      "croppingDisclaimer": "De plus, il n'y a pas d'élément de contrôle pour sélectionner la section d'écran souhaitée. Ainsi, l'image doit déjà être recadrée pour s'adapter."
+      "Modal": {
+        "header": "Recadrer la photo de profil",
+        "reset": "Réinitialiser",
+        "submit": "Télécharger"
+      }
     },
     "DeleteProfile": {
       "header": "Supprimer le profil",

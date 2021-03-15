@@ -1,4 +1,18 @@
 {
+  "Stats": {
+    "headerTable": "Gesamtzahlen",
+    "headerDays": "Neue Nutzer/Spiele nach Wochentag",
+    "headerWeeks": "Neue Nutzer/Spiele nach Kalenderwoche",
+    "users": "Benutzer",
+    "games": "Spiele",
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag"
+  },
   "Home": {
     "Spielersuche": "Spielersuche",
     "Games": "Spiele",
@@ -6,6 +20,7 @@
     "Tournament": "Turnier",
     "Leaderboard": "Leaderboard",
     "Settings": "Einstellungen",
+    "Stats": "Server Statistiken",
     "Copyright": "Copyright",
     "Datenschutz": "Datenschutzerklärung",
     "Impressum": "Impressum",
@@ -154,6 +169,7 @@
         "colorBlindness": "Kugeln optimieren für Farbenblinde:",
         "colorBlindnessOn": "An",
         "colorBlindnessOff": "Aus",
+        "displayGameText": "Spieltext anzeigen:",
         "position": "Position:",
         "checkBoxAbsolute": "Absolut positioniert",
         "checkBox4_0": "Immer unten rechts",
@@ -341,7 +357,11 @@
       "toastSummaryFailureDelete": "Löschen fehlgeschlagen!",
       "toastSummarySuccessDelete": "Profilbild gelöscht!",
       "privacyDisclaimer": "Achtung: Dieses Bild kann aktuell von allen angemeldeten Benutzern eingesehen werden!",
-      "croppingDisclaimer": "Außerdem existiert kein Bedienelement, um den gewünschten Bildschirmausschnitt zu wählen. Das Bild muss also bereits passend zugeschnitten sein."
+      "Modal": {
+        "header": "Profilbild zuschneiden",
+        "reset": "Reset",
+        "submit": "Hochladen"
+      }
     },
     "DeleteProfile": {
       "header": "Profil entfernen",

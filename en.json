@@ -1,4 +1,18 @@
 {
+  "Stats": {
+    "headerTable": "Totals",
+    "headerDays": "New users / games by day of the week",
+    "headerWeeks": "New users / games by calendar week",
+    "users": "user",
+    "games": "Games",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
   "Home": {
     "Spielersuche": "Search Users",
     "Games": "Games",
@@ -6,6 +20,7 @@
     "Tournament": "Competition",
     "Leaderboard": "Leaderboard",
     "Settings": "Settings",
+    "Stats": "Server statistics",
     "Copyright": "Copyright",
     "Datenschutz": "Data protection",
     "Impressum": "Imprint",
@@ -154,6 +169,7 @@
         "colorBlindness": "Optimizing balls for color blind people:",
         "colorBlindnessOn": "An",
         "colorBlindnessOff": "Out",
+        "displayGameText": "Show game text:",
         "position": "Position:",
         "checkBoxAbsolute": "Absolutely positioned",
         "checkBox4_0": "Always at the bottom right",
@@ -341,7 +357,11 @@
       "toastSummaryFailureDelete": "Delete failed!",
       "toastSummarySuccessDelete": "Profile picture deleted!",
       "privacyDisclaimer": "Attention: This picture can currently be viewed by all registered users!",
-      "croppingDisclaimer": "In addition, there is no control element to select the desired screen section. So the picture must already be cropped to fit."
+      "Modal": {
+        "header": "Crop profile picture",
+        "reset": "Reset",
+        "submit": "Upload"
+      }
     },
     "DeleteProfile": {
       "header": "Remove profile",

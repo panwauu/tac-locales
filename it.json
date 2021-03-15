@@ -1,4 +1,18 @@
 {
+  "Stats": {
+    "headerTable": "Totali",
+    "headerDays": "Nuovi utenti / giochi per giorno della settimana",
+    "headerWeeks": "Nuovi utenti / giochi per settimana di calendario",
+    "users": "utente",
+    "games": "Giochi",
+    "monday": "Lunedi",
+    "tuesday": "martedì",
+    "wednesday": "mercoledì",
+    "thursday": "giovedi",
+    "friday": "Venerdì",
+    "saturday": "Sabato",
+    "sunday": "Domenica"
+  },
   "Home": {
     "Spielersuche": "Matchmaking",
     "Games": "Giochi",
@@ -6,6 +20,7 @@
     "Tournament": "concorrenza",
     "Leaderboard": "Classifica",
     "Settings": "impostazioni",
+    "Stats": "Statistiche del server",
     "Copyright": "Diritto d'autore",
     "Datenschutz": "Protezione dati",
     "Impressum": "impronta",
@@ -154,6 +169,7 @@
         "colorBlindness": "Ottimizzazione delle palle per le persone daltoniche:",
         "colorBlindnessOn": "Un",
         "colorBlindnessOff": "Su",
+        "displayGameText": "Mostra il testo del gioco:",
         "position": "Posizione:",
         "checkBoxAbsolute": "Assolutamente posizionato",
         "checkBox4_0": "Sempre in basso a destra",
@@ -341,7 +357,11 @@
       "toastSummaryFailureDelete": "Eliminazione non riuscita!",
       "toastSummarySuccessDelete": "Immagine del profilo eliminata!",
       "privacyDisclaimer": "Attenzione: questa immagine può essere attualmente visualizzata da tutti gli utenti registrati!",
-      "croppingDisclaimer": "Inoltre, non è presente alcun elemento di controllo per selezionare la sezione dello schermo desiderata. Quindi l'immagine deve essere già ritagliata per adattarla."
+      "Modal": {
+        "header": "Ritaglia l'immagine del profilo",
+        "reset": "Ripristina",
+        "submit": "Caricare"
+      }
     },
     "DeleteProfile": {
       "header": "Rimuovi profilo",
