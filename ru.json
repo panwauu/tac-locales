@@ -44,18 +44,18 @@
     "backButton": "На текущий турнир",
     "deadlinesHeader": "Регистрация и расписание",
     "signUpDeadline": "Дата окончания регистрации",
-    "gameTime": "игра",
+    "gameTime": "Игра",
     "timePerGame": "Время за игру",
     "waitingTeams": "Неполные команды",
-    "fixTeams": "Постоянно зарегистрированные команды",
+    "fixTeams": "Зарегистрированные команды",
     "fixTeamsnOpenSpots": "Пропавшие команды",
     "signUpConfirmationText": "Вы уверены, что у вас есть время на игровые даты? Это очень важно для впечатлений каждого!",
     "teamSignUp": {
       "openModalButton": "Зарегистрируйте команду",
       "title": "Зарегистрируйте команду",
       "teamNamePlaceholder": "Название команды",
-      "selectButtonWithPartner": "Зарегистрируйтесь у постоянного партнера",
-      "selectButtonAlone": "Посреднические партнеры",
+      "selectButtonWithPartner": "Зарегистрируйтесь с партнером",
+      "selectButtonAlone": "Зарегистрироваться без партнеры",
       "submitButton": "Зарегистрируйте команду"
     },
     "helpModal": {
@@ -127,19 +127,19 @@
     "Games": {
       "tooltip": "К играм",
       "title": "Ваши игры",
-      "openGames": "{X} открытых игр",
+      "openGames": "Открытых игр: {X}",
       "wonGames": "Выигранных игр: {X}",
-      "lostGames": "{X} проигранных игр",
-      "teamGames": "{X} Игры Team-Tac",
+      "lostGames": "Проигранных игр: {X}",
+      "teamGames": "Игры Team-Tac: {X}",
       "lastGames": "Последние игры:"
     },
     "Waiting": {
-      "tooltip": "В залы ожидания",
-      "title": "Warteraum",
+      "tooltip": "В зале ожидания",
+      "title": "Зал ожидания",
       "inRoom": "Вы часть комнаты",
       "inNoRoom": "Вы не в зале ожидания",
       "playersWaiting": "{X} игроков ждут",
-      "openRooms": "{X} открытые пространства"
+      "openRooms": "{X} открытых комнаты"
     },
     "Tournament": {
       "tooltip": "На турниры",
@@ -171,7 +171,7 @@
         "colorBlindnessOff": "Из",
         "displayGameText": "Показать текст игры:",
         "position": "Позиция:",
-        "checkBoxAbsolute": "Абсолютно позиционируется",
+        "checkBoxAbsolute": "Абсолютное позиционирование",
         "checkBox4_0": "Всегда внизу справа",
         "checkBox4_1": "Всегда внизу слева",
         "checkBox4_2": "Всегда вверху слева",
@@ -187,7 +187,7 @@
     "EndedOverlay": {
       "statistic": "Статистика",
       "backButton": "Назад",
-      "wonInX": "Вы выиграли ходов: {X}!",
+      "wonInX": "Вы выиграли за: {X} ходов!",
       "aborted": "Игра была отменена",
       "wonWith": "Вы выиграли с {players}!",
       "lostWith": "Вы проиграли с {players}!",
@@ -269,7 +269,7 @@
       "privateTrueName": "Закрытая",
       "privateFalseName": "Открытая"
     },
-    "joinRandomGameButton": "Присоединяйтесь к случайной игре",
+    "joinRandomGameButton": "Присоединиться к случайной игре",
     "removePlayerConfirmSelf": "Вы уверены, что хотите покинуть эту комнату?",
     "removePlayerConfirmOther": "Вы уверены, что хотите убрать игрока из комнаты?",
     "switchGameConfirm": "Вы уверены, что хотите сменить комнату?"
